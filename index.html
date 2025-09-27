@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบตรวจสอบรายชื่อนักศึกษา</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="logo rec-Photoroom (2).png" alt="Logo" class="logo">
+    </div>
+    
+    <div class="container">
+        <h1>ระบบตรวจสอบรายชื่อนักศึกษา</h1>
+        <p class="disclaimer">เว็บไซต์นี้ใช้สำหรับตรวจสอบรายชื่อเท่านั้น ไม่สามารถใช้เป็นเอกสารอ้างอิงใดๆ</p>
+        <form id="search-form">
+            <label for="student-id">รหัสประจำตัว:</label>
+            <input type="text" id="student-id" name="student-id" required>
+            <button type="submit">ค้นหา</button>
+        </form>
+        <div id="result">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
